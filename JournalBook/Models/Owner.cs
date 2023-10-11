@@ -1,6 +1,6 @@
 ﻿namespace JournalBook.Models
 {
-    public class Qwner
+    public class Owner
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

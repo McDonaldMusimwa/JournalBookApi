@@ -9,7 +9,11 @@
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set;}
 
+        // Add a foreign key property to reference the owner
+        public int OwnerId { get; set; }
 
-        
+        // Navigation property to represent the owner
+        public Owner Owner { get; set; }
+
     }
 }
