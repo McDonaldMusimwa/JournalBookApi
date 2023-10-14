@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JournalBook", "JournalBook\JournalBook.csproj", "{1E75DBBC-45FF-483C-9594-8278AEC21E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JournalBook", "JournalBook\JournalBook.csproj", "{1E75DBBC-45FF-483C-9594-8278AEC21E61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JournalBook.Test", "JournalBook.Test\JournalBook.Test.csproj", "{7AD53BAE-345E-4B1C-95E5-6146D3DCBA96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1E75DBBC-45FF-483C-9594-8278AEC21E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E75DBBC-45FF-483C-9594-8278AEC21E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E75DBBC-45FF-483C-9594-8278AEC21E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD53BAE-345E-4B1C-95E5-6146D3DCBA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD53BAE-345E-4B1C-95E5-6146D3DCBA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD53BAE-345E-4B1C-95E5-6146D3DCBA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD53BAE-345E-4B1C-95E5-6146D3DCBA96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
